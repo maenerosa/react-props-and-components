@@ -46,3 +46,19 @@ There are two types of React components:
 ### Conclusion
 
 - We covered the basics of React component development, including function components, props, and styles. By following the examples and exercises in this lesson, you should have a solid foundation for building your own React components.
+
+### Exercise: Create a Link Component
+
+In this exercise, we'll create a reusable Link component that can be used to navigate to a different page.
+
+Create a new file called Link.js.
+
+Define a functional component called Link that takes a text and url prop.
+
+In the render method, return an a element with the text prop as its text content and the url prop as its href.
+
+Export the Link component.
+
+In your main component, define a url variable that contains a URL. Pass the text and url variables as props to the Link component.
+
+Use the Link component to display a link that navigates to the URL when clicked.
