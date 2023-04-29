@@ -7,6 +7,9 @@ function App() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
+
+    if (inputValue === "") return;
+
     setTodos([...todos, inputValue]);
     setInputValue("");
   };
